@@ -1,0 +1,48 @@
+#barra{
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 32px;
+    margin-left: 32px;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: space-between;
+}
+#barra button{
+    background: #A1C6EA;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    outline: none;
+}
+
+#ideias{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+#ideias h1{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ideia{
+    background: white;
+    margin: 16px;
+    padding: 32px;
+}
+
+#barra button:hover{
+    border: none;
+    background: #507DBC;
+}
+
+
+body {
+    background-color:#e5e5e5;
+}
